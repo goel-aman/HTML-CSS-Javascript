@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>Do you prefer Dogs or Cats??</p>
+    <form action="">
+    <label for="dogs">Dogs:</label>
+    <input id = "dogs" name="petchoice" type="radio"
+    value = "Dogs">
+    <label for="cat">Cats:</label>
+    <input name = "petchoice" id = "cat" type="radio"
+    value="cats">
+    <br>
+    <p>What's your current Mood</p>
+    <select name="mood" id="">
+        <option value = "happy">:)</option>
+        <option value = "neutral">:|</option>
+        <option value = "sad">:(</option>
+    </select>
+    <button>Lets Go Home</button>
+    </form>
+    <input type ="text">
+    <textarea name = "paragraph" rows ="10" cols="50"></textarea>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <label for="name">First Name</label>
+        <input id = "name" name = "name" type="text" placeholder="john">
+        <label for="lname">Last Name</label>
+        <input id= "lname" name="lname" type="text" placeholder = "smith">
+        <br>
+        <label for="male">Male</label>
+        <input id = "male"name = "gender" type="radio" value= "male">
+        <label for="female">Female</label>
+        <input id ="female" name = "gender" type="radio" value = "female">
+        <label for="other">Other</label>
+        <input id ="other" name = "gender" type="radio" value ="other">
+        <br>
+        <label for="email">Email:</label>
+        <input name ="email" id = "email" type="email" placeholder="your email" required>
+        <label for="password">Password:</label>
+        <input name="password" id="password" type="password"  pattern =".{5,10}" required title ="password wrong">
+        <br>
+        <label for="birhtday">Birthday:</label>
+
+        <select name="month" id="birthday">
+            <option value="">month</option>
+            <option value="month">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+        <select name="day" id="">
+            <option value="">day</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+        </select>
+        <select name="year" id="">
+            <option value="">year</option>
+            <option value="">1998</option>
+            <option value="">1997</option>
+            <option value="">1995</option>
+        </select>
+        I agree to terms and conditions
+        <input type="checkbox">
+        <br>
+        <button>submit</button>
+    </form>
+</body>
+</html>

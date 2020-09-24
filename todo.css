@@ -1,0 +1,29 @@
+/* /* body{
+    background :orange;
+}
+li{
+    border: 2px solid red;
+}
+#aman{
+    background: yellow;
+}
+.completved{
+    text-decoration: line-through;
+} 
+*{
+    border: 1px solid lightgrey;
+}
+
+ul li{
+    color:red;
+}
+h1 + ul{
+    border: 4px solid red;
+}
+
+a[href="www.google.com"]{
+    background: blue;
+}
+li:nth-of-type(2){
+background:purple;
+} */

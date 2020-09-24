@@ -1,0 +1,19 @@
+h1 {
+    color: rgba(255,255,255,1);
+    /* border-color:white;
+    border-width: 50px;
+    border-style: solid; */
+    border: 5px dashed white
+}
+li{
+    color : rgb(1,255,100);
+}
+h4{
+    background: rgb(255,100,80);
+}
+body{
+    background:pink;
+    /* background:url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-repeat: no-repeat;
+background-size: cover; */
+}
